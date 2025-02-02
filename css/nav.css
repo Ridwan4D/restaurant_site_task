@@ -45,11 +45,11 @@ nav {
 }
 
 .hamburger>i {
+    border: none;
     width: 16px;
     height: 12px;
     color: black;
-    margin-top: 13px;
-    margin-left: 14px;
+    cursor: pointer;
 }
 
 
@@ -59,7 +59,29 @@ nav {
     border: none;
     padding: 12px 20px;
     border-radius: 32px;
+    cursor: pointer;
 }
+
+.reserve_btn:hover {
+    background-color: #fdb627;
+
+}
+
+/* <!-- top home message --> */
+.nav_message {
+    background-color: #FBC04E;
+    padding: 9px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_message>p {
+    margin: 0 auto;
+}
+
+
+
+
 
 /* navbar end */
 
@@ -72,10 +94,11 @@ nav {
         background-color: white;
         color: black;
     }
+
     .logo-text {
         font-size: 34px;
     }
-    
+
     .nav-center {
         display: none;
     }
@@ -92,14 +115,16 @@ nav {
         /* padding-top: 5px;
         padding-left: 10px; */
     }
+
     .hamburger>i {
         font-size: 10px;
         color: black;
         margin-top: 0px;
         margin-left: 0;
     }
+
     .nav_end {
         gap: 5px;
     }
-    
+
 }
