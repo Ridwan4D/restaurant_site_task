@@ -1,0 +1,19 @@
+.jomhuria-regular {
+    font-family: "Jomhuria", serif;
+}
+
+.font_playFire {
+    font-family: "Playfair Display", serif;
+}
+
+.font_cabin {
+    font-family: "Cabin", serif;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .justify_between{
+    justify-content: space-between;
+} */

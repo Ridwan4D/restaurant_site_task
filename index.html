@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <!-- css file link start-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jomhuria&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+    <!-- css file link end -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,23 +22,31 @@
 
 <body>
 
-    <nav class="nav">
-        <div class="jomhuria-regular logo-text">Logo</div>
-        <ul>
-            <li>About</li>
-            <li>Menu</li>
-            <li>
-                Blog
-            </li>
-            <li>Contact</li>
-        </ul>
-        <div>
-            <!-- hamburger icon -->
-            <div><i class="fa-solid fa-bars"></i></div>
-            <!-- Reserve Table -->
-            <div>Reserve Table</div>
-        </div>
-    </nav>
+    <!-- navbar start -->
+    <div class="navbar">
+        <nav class="nav">
+            <div class="jomhuria-regular logo-text">Logo</div>
+            <ul class="flex font_cabin nav-center">
+                <li class="nav_link"><a href="#"> About</a></li>
+                <li class="nav_link"><a href="#"> Menu</a></li>
+                <li class="nav_link"><a href="#"> Blog</a></li>
+                <li class="nav_link font_cabin"><a href="#"> Contact</a></li>
+            </ul>
+            <div class="nav_end">
+                <!-- hamburger icon -->
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                <!-- Reserve Table -->
+                <div>
+                    <button class="reserve_btn">Reserve Table</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- top home message -->
+    <div class="">
+        <p>Join My Restaurant Rewards, win Our Special Guest Token!</p>
+    </div>
+    <!-- navbar end -->
 
 
 
