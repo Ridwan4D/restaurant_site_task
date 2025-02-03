@@ -75,6 +75,114 @@
     color: #6C6C6C;
 }
 
+/* ============================================================= checkout section end ==================================================================== */
+
+/* ============================================================= online_reservation section end ==================================================================== */
+#online_reservation {
+    position: relative;
+    height: 660px;
+    max-width: 1940px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    text-align: center;
+}
+
+#online_reservation::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/home/reserve.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.reserve_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.reserve_heading h1 {
+    width: 400px;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.reserve_heading p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* Form Grid */
+.reservation_form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 50px;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Input Group (Input + Icon) */
+.input_group {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.527);
+    width: 100%;
+    position: relative;
+}
+
+.input_group input,
+.input_group select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    padding-right: 30px;
+    /* Space for icon */
+}
+
+.input_group input::placeholder,
+.input_group select {
+    color: white;
+}
+
+/* Font Awesome Icon Styling */
+.input_group i {
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+/* Button Styling */
+#reservation_button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reservation_form>div>button:hover {
+    background: #e0a84c;
+}
+
+/* ============================================================= online_reservation section end ==================================================================== */
 
 
 
@@ -134,4 +242,28 @@
         width: 100%;
         font-size: 14px;
     }
+
+    /* ============================================================= online_reservation section start ==================================================================== */
+    .reservation_form {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .reserve_heading h1 {
+        font-size: 32px;
+    }
+
+    .reserve_heading p {
+        font-size: 16px;
+    }
+
+    .input_group {
+        padding: 10px;
+    }
+
+    #reservation_button_div button {
+        font-size: 15px;
+        width: 100%;
+    }
+
 }
