@@ -15,6 +15,23 @@
     font-family: "Cabin", serif;
 }
 
+.common_btn {
+    font-size: 16px;
+    background-color: #FBC04E;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+.common_btn:hover {
+    background-color: #fdb627;
+    color: white;
+}
+
+
+
 .flex {
     display: flex;
 }
@@ -22,3 +39,14 @@
 /* .justify_between{
     justify-content: space-between;
 } */
+
+
+
+
+
+@media(max-width: 376px) {
+    .common_btn {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+}

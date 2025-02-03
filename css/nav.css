@@ -53,20 +53,6 @@ nav {
 }
 
 
-.reserve_btn {
-    font-size: 16px;
-    background-color: #FBC04E;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 32px;
-    cursor: pointer;
-}
-
-.reserve_btn:hover {
-    background-color: #fdb627;
-
-}
-
 /* <!-- top home message --> */
 .nav_message {
     background-color: #FBC04E;
@@ -103,11 +89,6 @@ nav {
         display: none;
     }
 
-    .reserve_btn {
-        font-size: 10px;
-        padding: 6px 12px;
-    }
-
     .hamburger {
         background-color: #fff;
         width: 15px;
@@ -126,5 +107,10 @@ nav {
     .nav_end {
         gap: 5px;
     }
+    .nav_message>p {
+        margin: 0 auto;
+        font-size: 8px;
+    }
+    
 
 }
