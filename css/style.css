@@ -22,7 +22,7 @@
 
 
 .font_poppins {
-    font-family: "Cabin", serif;
+    font-family: "Poppins", serif;
 }
 
 .common_btn {
@@ -52,6 +52,63 @@
 
 
 
+/* ------------------------------------------------------------ css for after home offer section -------------------------------------------------------------*/
+
+/* ============================================================= checkout section start ==================================================================== */
+.checkout_heading {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.checkout_heading>h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.checkout_heading>p {
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 376px) {
     .common_btn {
         font-size: 10px;
@@ -62,4 +119,19 @@
         display: none;
     }
 
+    /* ============================================================= checkout section start ==================================================================== */
+    .checkout_heading {
+        padding: 40px 16px;
+        gap: 16px;
+    }
+
+    .checkout_heading>h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .checkout_heading>p {
+        width: 100%;
+        font-size: 14px;
+    }
 }
