@@ -2,14 +2,11 @@
     position: relative;
     height: 750px;
     max-width: 1940px;
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
-    /* Center content vertically */
     justify-content: flex-start;
-    /* Align content to the left */
     padding-left: 5%;
-    /* Adjust left spacing */
 }
 
 .home_banner::after {
@@ -36,11 +33,6 @@
     display: flex;
     align-items: center;
 } */
-
-.banner_content>.header>p {
-    color: #FBC04E;
-    font-size: 18px;
-}
 
 .bc_body>.main_text {
     font-size: 56px;
@@ -103,11 +95,6 @@
     .home_banner::after {
         background: none;
     }
-
-    .banner_content>.header>p {
-        display: none;
-    }
-
     .banner_content {
         width: 100%;
     }
