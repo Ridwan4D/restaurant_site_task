@@ -20,6 +20,11 @@
     font-family: "Cabin", serif;
 }
 
+
+.font_poppins {
+    font-family: "Cabin", serif;
+}
+
 .common_btn {
     font-size: 16px;
     background-color: #FBC04E;
@@ -44,8 +49,6 @@
 /* .justify_between{
     justify-content: space-between;
 } */
-
-
 
 
 
