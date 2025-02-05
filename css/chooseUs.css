@@ -1,4 +1,5 @@
-.choose_us {
+.choose_us,
+.newsLetter {
     max-width: 1440px;
     width: auto;
     display: flex;
@@ -10,7 +11,8 @@
     gap: 40px;
 }
 
-.choose_us_left {
+.choose_us_left,
+.newsletter_us_right {
     position: relative;
     width: 50%;
     height: 420px;
@@ -35,22 +37,27 @@
     z-index: 1;
 }
 
-.choose_us_right {
+.choose_us_right,
+.newsletter_us_left {
     width: 50%;
 }
 
 
-.choose_body {
+.choose_body,
+.newsLetter_body {
     font-weight: 700;
     font-size: 48px;
 }
 
-.choose_para {
+.choose_para,
+.newsletter_para {
     font-size: 18px;
     margin-top: 32px;
+    color: #6C6C6C;
 }
 
-.choose_button_div {
+.choose_button_div,
+.newsletter_form_div {
     margin-top: 40px;
 }
 

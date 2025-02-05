@@ -249,11 +249,12 @@
     margin-left: 16px;
     font-weight: normal;
 }
+
 /* ============================================================= home contact section end ==================================================================== */
 
 
 /* ============================================================= home location section start ==================================================================== */
-.home_location{
+.home_location {
     max-width: 1440px;
     min-height: 556px;
     margin-left: auto;
@@ -261,20 +262,48 @@
     margin-top: 64px;
 }
 
-.home_location > img{
+.home_location>img {
     max-height: 556px;
     width: 100%;
     object-fit: cover;
     object-position: top;
     border-radius: 8px;
-    
+
 }
 
 /* ============================================================= home location section end ==================================================================== */
 
 
+/* ============================================================= home newsletter section start ==================================================================== */
+.newsletter_img_div {
+    height: 400px;
+    width: 600px;
+    border: 3px solid #FBC04E;
+    border-radius: 16px;
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    z-index: 1;
+}
 
+.newsletter_form_div{
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-between; */
+    gap: 0 40px
+}
 
+#newsletter_input {
+    max-height: 52px;
+    max-width: 292px;
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6C6C6C;
+    border-radius: 20px;
+}
+
+/* ============================================================= home newsletter section end ==================================================================== */
 
 
 
