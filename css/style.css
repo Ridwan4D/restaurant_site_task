@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-body {
-    padding: 0 4px;
-}
-
 .header>p {
     color: #FBC04E;
     font-size: 18px;
@@ -510,6 +506,11 @@ body {
 
 
 @media(max-width: 376px) {
+
+    body {
+        padding: 0 4px;
+    }
+
     .common_btn {
         font-size: 10px;
         padding: 6px 12px;
@@ -602,7 +603,8 @@ body {
         object-fit: cover;
         object-position: top;
     }
-    .slide_btn_container{
+
+    .slide_btn_container {
         display: flex;
         margin-bottom: 35px;
     }
@@ -658,7 +660,8 @@ body {
         font-size: 20px;
         margin-bottom: 8px;
     }
-    .contact-box{
+
+    .contact-box {
         padding: 0 20px;
     }
 
