@@ -185,15 +185,16 @@
 /* ============================================================= online_reservation section end ==================================================================== */
 
 
-/* ============================================================= home contact section end ==================================================================== */
+/* ============================================================= home contact section start ==================================================================== */
 #home_contact {
     max-width: 1440px;
-    margin: 0 auto;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 40px 20px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-box {
@@ -224,7 +225,7 @@
     margin-bottom: 24px;
 }
 
-.contact-heading ~ *{
+.contact-heading~* {
     margin: 7px 0;
     font-weight: 600;
 }
@@ -246,8 +247,32 @@
 .home_contact_span {
     color: #807F7E;
     margin-left: 16px;
+    font-weight: normal;
+}
+/* ============================================================= home contact section end ==================================================================== */
+
+
+/* ============================================================= home location section start ==================================================================== */
+.home_location{
+    max-width: 1440px;
+    min-height: 556px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+
+.home_location > img{
+    max-height: 556px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
     
 }
+
+/* ============================================================= home location section end ==================================================================== */
+
+
 
 
 
