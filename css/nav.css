@@ -14,7 +14,8 @@ nav {
 
 }
 
-.logo-text {
+.logo-text,
+.footer_logo-text {
     font-size: 64px;
 }
 
@@ -91,8 +92,8 @@ nav {
 
     .hamburger {
         background-color: #fff;
-        width: 15px;
-        height: 15px;
+        width: 25px;
+        height: 25px;
         /* padding-top: 5px;
         padding-left: 10px; */
     }
@@ -101,16 +102,17 @@ nav {
         font-size: 10px;
         color: black;
         margin-top: 0px;
-        margin-left: 0;
+        margin-left: -4px;
     }
 
     .nav_end {
         gap: 5px;
     }
+
     .nav_message>p {
         margin: 0 auto;
         font-size: 8px;
     }
-    
+
 
 }

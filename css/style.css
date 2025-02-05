@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+body {
+    padding: 0 4px;
+}
 
 .header>p {
     color: #FBC04E;
@@ -87,17 +90,7 @@
 }
 
 .app_card {
-    display: flex;
     margin-top: 16px;
-    gap: 15px;
-    border: 1px solid white;
-    border-radius: 8px;
-    padding: 10px 20px;
-}
-
-.footer_card_image {
-    height: 45px;
-    width: 50px;
 }
 
 .bottom_footer {
@@ -131,6 +124,12 @@
 /* ------------------------------------------------------------ css for after home offer section -------------------------------------------------------------*/
 
 /* ============================================================= checkout section start ==================================================================== */
+#checkout_section {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .checkout_heading {
     padding: 80px;
     display: flex;
@@ -150,6 +149,104 @@
     font-size: 18px;
     color: #6C6C6C;
 }
+
+.checkout_menu_list {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 0 auto 48px auto;
+    gap: 16px;
+}
+
+.checkout_menu_list_active {
+    background-color: #FBC04E;
+}
+
+.checkout_menu_item {
+    border: 1px solid #FBC04E;
+    padding: 16px 24px;
+    border-radius: 32px;
+}
+
+.checkout_card_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 48px;
+}
+
+.checkout_card {
+    max-width: 446px;
+}
+
+.checkout_card>h3 {
+    color: #353432;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.checkout_card>p {
+    color: #6C6C6C;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.checkout_card>hr {
+    border: 1px solid #6C6C6C;
+}
+
+.checkout_card>div {
+    color: #353432;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.checkout_card>div>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.checkout_card>div>h3 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.checkout_card_img {
+    max-height: 464px;
+    max-width: 446px;
+    width: 99%;
+    height: 99%;
+    border-radius: 6px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.slide_btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 84px;
+}
+
+.slide_btn {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #6C6C6C;
+    border-radius: 100%;
+    background-color: #6C6C6C;
+}
+
+.slide_btn_active {
+    border: 1px solid #fdb627;
+    background-color: #fdb627;
+}
+
 
 /* ============================================================= checkout section end ==================================================================== */
 
@@ -217,9 +314,9 @@
     display: flex;
     align-items: center;
     border: none;
-    border-radius: 8px;
-    padding: 12px;
-    background: rgba(255, 255, 255, 0.527);
+    border-radius: 6px;
+    padding: 16px;
+    background: rgba(214, 213, 213, 0.404);
     width: 100%;
     position: relative;
 }
@@ -278,7 +375,7 @@
 .contact-box {
     display: flex;
     /* align-items: center; */
-    gap: 16px;
+    gap: 31px;
     padding: 20px;
 }
 
@@ -334,7 +431,7 @@
 /* ============================================================= home location section start ==================================================================== */
 .home_location {
     max-width: 1440px;
-    min-height: 556px;
+    max-height: 556px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 64px;
@@ -438,6 +535,93 @@
         font-size: 14px;
     }
 
+    .checkout_card_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin-bottom: 48px;
+    }
+
+    .checkout_menu_list {
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .checkout_menu_item {
+        font-size: 9px;
+        padding: 9px 12px;
+    }
+
+    /* ==================================== */
+    /* .checkout_card{
+        margin-bottom: 20px;
+    } */
+    .checkout_card>h3 {
+        font-size: 13px;
+        margin-top: 16px;
+    }
+
+
+    .checkout_card>p {
+        color: #6C6C6C;
+        width: 80%;
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+
+    .checkout_card>hr {
+        border: 1px solid #6C6C6C;
+    }
+
+    .checkout_card>div {
+        color: #353432;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 13px;
+    }
+
+    .checkout_card>div>a {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .checkout_card>div>h3 {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .checkout_card_img {
+        height: 464px;
+        max-width: 446px;
+        width: 99%;
+        border-radius: 6px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .slide_btn_container{
+        display: flex;
+        margin-bottom: 35px;
+    }
+
+    .slide_btn {
+        /* margin-top: 90px; */
+        height: 10px;
+        width: 10px;
+        border: 1px solid #6C6C6C;
+        border-radius: 100%;
+        background-color: #6C6C6C;
+    }
+
+    .slide_btn_active {
+        border: 1px solid #fdb627;
+        background-color: #fdb627;
+    }
+
+    /* ============================================================= checkout section end ==================================================================== */
     /* ============================================================= online_reservation section start ==================================================================== */
     .reservation_form {
         grid-template-columns: 1fr;
@@ -449,10 +633,11 @@
     }
 
     .reserve_heading p {
-        font-size: 16px;
+        display: none;
     }
 
     .input_group {
+        width: 95%;
         padding: 10px;
     }
 
@@ -464,9 +649,102 @@
 
     /* ============================================================= home contact section start ==================================================================== */
     #home_contact {
-        grid-template-columns: repeat(1s, 1fr);
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .contact-box{
+        padding: 0 20px;
     }
 
     /* ============================================================= home contact section end ==================================================================== */
+
+    /* ============================================================= home location section start ==================================================================== */
+    .home_location>img {
+        height: 490px;
+        border-radius: 4px;
+    }
+
+    /* ============================================================= home location section end ==================================================================== */
+
+    /* ============================================================= home newsletter section start ==================================================================== */
+    .newsLetter {
+        flex-direction: column;
+    }
+
+    .newsletter_img_div {
+        display: none;
+    }
+
+    /* ============================================================= home newsletter section end ==================================================================== */
+
+
+    /* ============================================================= footer section start ==================================================================== */
+    .footer_logo-text {
+        text-align: center;
+    }
+
+    .footer_body {
+        padding: 64px 0px 48px;
+        margin-top: 240px;
+    }
+
+    .top_footer {
+        flex-direction: column;
+    }
+
+    .footer_nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_left>p {
+        font-size: 18px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_right {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .rf_heading{
+        text-align: start;
+    } */
+
+    .bottom_footer {
+        flex-direction: column;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom_footer>div>a {
+        margin-left: 14px;
+    }
+
+    /* ============================================================= footer section start ==================================================================== */
+
+    .newsletter_us_right {
+        width: 100%;
+    }
+
+    #newsletter_input {
+        max-height: 22px;
+        padding: 3px;
+    }
+
+
 
 }
