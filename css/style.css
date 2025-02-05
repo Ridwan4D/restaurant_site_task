@@ -110,10 +110,22 @@
     margin-left: 24px;
 }
 
-/* .footer_nav{
-    margin-left: 0;
-    justify-content: start;
-} */
+.footer_nav {
+    display: flex;
+    gap: 32px;
+    padding-left: 0;
+}
+
+.footer_nav_link {
+    list-style: none;
+}
+
+.footer_nav_link>a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /* ============================================================= common style section end ==================================================================== */
 
 
