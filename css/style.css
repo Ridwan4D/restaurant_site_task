@@ -1,3 +1,4 @@
+/* ============================================================= common style section start ==================================================================== */
 * {
     margin: 0;
 }
@@ -50,6 +51,70 @@
     justify-content: space-between;
 } */
 
+
+
+.footer {
+    margin-top: 80px;
+    background-color: #000;
+}
+
+.footer_body {
+    max-width: 1440px;
+    width: 100%;
+    color: #ffff;
+    padding: 64px 32px 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_left>p {
+    margin-top: 22px;
+    max-width: 300px;
+    margin-bottom: 32px;
+}
+
+
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    border-bottom: 2px solid white;
+}
+
+.rf_heading {
+    color: #FBC04E;
+    font-weight: 600;
+}
+
+.app_card {
+    display: flex;
+    margin-top: 16px;
+    gap: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.footer_card_image {
+    height: 45px;
+    width: 50px;
+}
+
+.bottom_footer {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_footer>div>a {
+    margin-left: 24px;
+}
+
+/* .footer_nav{
+    margin-left: 0;
+    justify-content: start;
+} */
+/* ============================================================= common style section end ==================================================================== */
 
 
 /* ------------------------------------------------------------ css for after home offer section -------------------------------------------------------------*/
@@ -286,9 +351,9 @@
     z-index: 1;
 }
 
-.newsletter_form_div{
+.newsletter_form_div {
     display: flex;
-    align-items: center; 
+    align-items: center;
     /* justify-content: space-between; */
     gap: 0 40px
 }
