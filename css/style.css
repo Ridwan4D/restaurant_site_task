@@ -877,8 +877,61 @@ nav {
     justify-content: center;
 }
 
-.about_vision_section_para {
-    max-width: 30%;
+#about_vision_section{
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.about_vision_section_para {
+    max-width: 50%;
+}
+.about_vision_section_body{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.about_vision_card{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.about_vision_left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about_vision_card_img_container{
+    background-color: var(--primary_color);
+    height: 81px;
+    width: 81px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_vision_card_img_container > img{
+    width: 44px;
+    height: 44px;
+}
+.about_vision_card_body{
+    max-width: 398px;
+}
+.about_vision_card_title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.about_vision_card_desc{
+    font-size: 18px;
+    color:#757575
+}
+.about_vision_right_img{
+    max-width: 600px;
+    max-height: 570px;
+    border-radius: 8px;
+}
 /* ================== about page choose us section end ================== */
