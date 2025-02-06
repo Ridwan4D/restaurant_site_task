@@ -415,6 +415,7 @@ nav {
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 84px;
 }
 
 .checkout_heading {
@@ -464,6 +465,12 @@ nav {
 
 .checkout_card {
     max-width: 397px;
+    border: 1px solid transparent;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .checkout_card>h3 {
@@ -475,15 +482,18 @@ nav {
 }
 
 
-.checkout_card>p {
+.checkout_card .checkout_card_para {
     color: #6C6C6C;
     width: 80%;
     font-size: 18px;
     margin-bottom: 16px;
 }
 
-.checkout_card>hr {
-    border: 1px solid #6C6C6C;
+.checkout_card_price {
+    border-top: 2px solid #6C6C6C;
+    padding-top: 16px;
+    margin-top: auto;
+    /* Pushes it to the bottom */
 }
 
 .checkout_card>div {
@@ -519,7 +529,8 @@ nav {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 84px;
+    /* margin-bottom: 84px; */
+    margin-top: 48px;
 }
 
 .slide_btn {
