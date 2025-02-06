@@ -2,9 +2,11 @@
 * {
     margin: 0;
 }
-:root{
+
+:root {
     --primary_color: #FBC04E;
 }
+
 .header>p {
     color: var(--primary_color);
     font-size: 18px;
@@ -214,7 +216,8 @@ nav {
 
 /* ================== choose us section start ================== */
 .choose_us,
-.newsLetter {
+.newsLetter,
+.about_story_section {
     max-width: 1240px;
     width: 1;
     display: flex;
@@ -227,7 +230,8 @@ nav {
 }
 
 .choose_us_left,
-.newsletter_us_right {
+.newsletter_us_right,
+.about_story_section_left {
     position: relative;
     width: 50%;
     height: 420px;
@@ -240,6 +244,7 @@ nav {
     max-width: 552px;
     width: auto;
     position: absolute;
+    border-radius: 10px;
     z-index: 2;
 }
 
@@ -269,7 +274,8 @@ nav {
 }
 
 .choose_para,
-.newsletter_para {
+.newsletter_para,
+.about_story_section_para {
     font-size: 18px;
     margin-top: 32px;
     color: #6C6C6C;
@@ -417,7 +423,8 @@ nav {
     margin-bottom: 84px;
 }
 
-.checkout_heading {
+.checkout_heading,
+.about_vision_section_heading {
     padding: 80px 50px 64px;
     display: flex;
     flex-direction: column;
@@ -425,12 +432,14 @@ nav {
     gap: 32px;
 }
 
-.checkout_heading>h1 {
+.checkout_heading>h1,
+.about_vision_section_heading>h1 {
     font-size: 56px;
     font-weight: bold;
 }
 
-.checkout_headings_para {
+.checkout_headings_para,
+.about_vision_section_para {
     width: 50%;
     text-align: center;
     font-size: 18px;
@@ -847,3 +856,29 @@ nav {
 }
 
 /* ================== footer section end ================== */
+
+
+
+
+
+
+/* ================== about page choose us section start ================== */
+#about_page_choose {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.about_story_section_left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_vision_section_para {
+    max-width: 30%;
+}
+
+/* ================== about page choose us section end ================== */
