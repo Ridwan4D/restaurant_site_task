@@ -2,15 +2,11 @@
 * {
     margin: 0;
 }
-
-body {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+:root{
+    --primary_color: #FBC04E;
 }
-
 .header>p {
-    color: #FBC04E;
+    color: var(--primary_color);
     font-size: 18px;
 }
 
@@ -33,7 +29,7 @@ body {
 
 .common_btn {
     font-size: 16px;
-    background-color: #FBC04E;
+    background-color: var(--primary_color);
     border: none;
     padding: 12px 20px;
     border-radius: 32px;
@@ -116,7 +112,7 @@ nav {
 
 /* <!-- top home message --> */
 .nav_message {
-    background-color: #FBC04E;
+    background-color: var(--primary_color);
     padding: 9px 0;
     display: flex;
     justify-content: center;
@@ -132,12 +128,16 @@ nav {
 .home_banner {
     position: relative;
     height: 750px;
-    max-width: 1940px;
     width: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5%;
+}
+
+.banner_container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home_banner::after {
@@ -193,7 +193,7 @@ nav {
 .banner_search_btn {
     font-size: 18px;
     background-color: transparent;
-    border: 1px solid #FBC04E;
+    border: 1px solid var(--primary_color);
     color: white;
     padding: 12px 20px;
     border-radius: 32px;
@@ -202,7 +202,7 @@ nav {
 }
 
 .banner_search_btn:hover {
-    color: #FBC04E;
+    color: var(--primary_color);
     border: 1px solid white;
 }
 
@@ -216,7 +216,7 @@ nav {
 .choose_us,
 .newsLetter {
     max-width: 1240px;
-    width: auto;
+    width: 1;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -236,7 +236,7 @@ nav {
 
 .choose_img {
     max-height: 480px;
-    height: 400px;
+    height: 100%;
     max-width: 552px;
     width: auto;
     position: absolute;
@@ -245,10 +245,10 @@ nav {
 
 .choose_img_div {
     max-height: 480px;
-    height: 400px;
+    height: 100%;
     max-width: 552px;
     width: 100%;
-    border: 3px solid #FBC04E;
+    border: 3px solid var(--primary_color);
     border-radius: 16px;
     position: absolute;
     top: 20px;
@@ -447,11 +447,11 @@ nav {
 }
 
 .checkout_menu_list_active {
-    background-color: #FBC04E;
+    background-color: var(--primary_color);
 }
 
 .checkout_menu_item {
-    border: 1px solid #FBC04E;
+    border: 1px solid var(--primary_color);
     padding: 16px 24px;
     border-radius: 32px;
 }
@@ -553,7 +553,6 @@ nav {
 #online_reservation {
     position: relative;
     height: 660px;
-    max-width: 1940px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -661,7 +660,7 @@ nav {
 
 /* ================== home contact section start ================== */
 #home_contact {
-    max-width: 1440px;
+    max-width: 1240px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -729,7 +728,7 @@ nav {
 
 /* ================== home location section start ================== */
 .home_location {
-    max-width: 1440px;
+    max-width: 1240px;
     max-height: 556px;
     margin-left: auto;
     margin-right: auto;
@@ -749,14 +748,20 @@ nav {
 
 
 /* ================== home newsletter section start ================== */
+.newsLetter {
+    gap: 100px;
+}
+
 .newsletter_img_div {
-    height: 400px;
-    width: 600px;
-    border: 3px solid #FBC04E;
+    max-height: 480px;
+    height: 100%;
+    max-width: 552px;
+    width: 100%;
+    border: 3px solid var(--primary_color);
     border-radius: 16px;
     position: absolute;
-    top: 25px;
-    left: -25px;
+    top: 20px;
+    left: -20px;
     z-index: 1;
 }
 
@@ -786,7 +791,7 @@ nav {
 }
 
 .footer_body {
-    max-width: 1440px;
+    max-width: 1240px;
     width: 100%;
     color: #ffff;
     padding: 64px 32px 48px;
@@ -809,7 +814,7 @@ nav {
 }
 
 .rf_heading {
-    color: #FBC04E;
+    color: var(--primary_color);
     font-weight: 600;
 }
 

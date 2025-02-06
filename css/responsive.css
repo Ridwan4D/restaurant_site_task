@@ -314,17 +314,15 @@
     /* .checkout_card{
         margin-bottom: 20px;
     } */
-    .checkout_card>h3 {
+    .checkout_card> .checkout_card_title {
         font-size: 13px;
         margin-top: 16px;
     }
 
 
-    .checkout_card>p {
-        color: #6C6C6C;
+    .checkout_card > .checkout_card_para {
         width: 80%;
         font-size: 10px;
-        margin-bottom: 13px;
     }
 
     .checkout_card>hr {
@@ -414,6 +412,10 @@
     .contact-heading {
         font-size: 20px;
         margin-bottom: 8px;
+    }
+
+    .home_contact_icon_div>img {
+        width: 50px;
     }
 
     .contact-box {
