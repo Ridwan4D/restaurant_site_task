@@ -314,13 +314,13 @@
     /* .checkout_card{
         margin-bottom: 20px;
     } */
-    .checkout_card> .checkout_card_title {
+    .checkout_card>.checkout_card_title {
         font-size: 13px;
         margin-top: 16px;
     }
 
 
-    .checkout_card > .checkout_card_para {
+    .checkout_card>.checkout_card_para {
         width: 80%;
         font-size: 10px;
     }
@@ -507,3 +507,240 @@
 }
 
 /* ==================================== responsive for small device end ==================================== */
+
+
+
+/* ==================================== responsive for mini laptop start ==================================== */
+@media(max-width: 1024px) {
+
+    /* ================== nav section start ================== */
+    nav {
+        max-width: 60rem;
+    }
+
+    /* ================== nav section start ================== */
+
+    /* ================== banner section start ================== */
+    .banner_container {
+        width: 960px;
+    }
+
+    .banner_content {
+        width: 60%;
+    }
+
+    /* ================== banner section end ================== */
+
+
+    /* ================== choose us section start ================== */
+    .choose_us {
+        max-width: 960px;
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .choose_body {
+        margin-bottom: 20px;
+    }
+
+    .choose_us_para {
+        color: #6C6C6C;
+        font-size: 18px;
+    }
+
+    .choose_img {
+        max-height: 350px;
+        max-width: 450px;
+    }
+
+    .newsletter_img_div,
+    .choose_img_div {
+        max-height: 350px;
+        max-width: 450px;
+    }
+
+    /* ================== choose us section end ================== */
+
+    /* ================== home daily offer section start ================== */
+
+    .offer_heading {
+        padding: 20px 80px;
+    }
+
+    .daily_offer_heading {
+        font-size: 45px;
+    }
+
+    .daily_offer_heading_para {
+        width: 55%;
+        font-size: 16px;
+    }
+
+    .offer_body {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .offer_body_left {
+        height: 440px;
+    }
+
+    .offer_body_left_content h3 {
+        font-size: 33px;
+    }
+
+    .offer_body_left_content h2 {
+        font-size: 40px;
+    }
+
+    .offer_card_content h4 {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+
+    .offer_card_content p {
+        font-size: 15px;
+    }
+
+    .offer_card>p {
+        font-size: 22px;
+    }
+
+    .offer_card_image {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* ================== home daily offer section end ================== */
+
+    /* ================== checkout section start ================== */
+    #checkout_section {
+        margin-bottom: 50px;
+    }
+
+    .checkout_heading>h1 {
+        font-size: 40px;
+    }
+
+    .checkout_headings_para {
+        font-size: 16px;
+    }
+
+    .checkout_heading {
+        padding-bottom: 40px;
+        gap: 15px;
+    }
+
+    .checkout_menu_list {
+        margin-bottom: 24px;
+    }
+
+    .checkout_menu_item {
+        padding: 8px 25px;
+    }
+
+    .checkout_card_section {
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .checkout_card>h3 {
+        font-size: 20px;
+    }
+
+    .checkout_card .checkout_card_para {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .checkout_card>div>h3 {
+        font-size: 20px;
+    }
+
+    .checkout_card>div>a {
+        font-size: 15px;
+    }
+
+    .slide_btn_container {
+        margin-top: 25px;
+    }
+
+    .slide_btn {
+        height: 12px;
+        width: 12px;
+    }
+
+    /* ================== checkout section end ================== */
+
+    /* ================== online reservation section start ================== */
+    #online_reservation {
+        height: 500px;
+    }
+
+    .reserve_heading h1 {
+        font-size: 40px;
+    }
+
+    /* ================== online reservation section end ================== */
+
+    /* ================== home contact section start ================== */
+    #home_contact {
+        max-width: 960px;
+        margin-top: 80px;
+    }
+
+    .home_contact_icon_div>img {
+        width: 50px;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .contact-heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .home_contact_span {
+        font-size: 14px;
+    }
+
+    .home_contact-location> :nth-child(2) {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* ================== home contact section end ================== */
+
+    /* ================== home location section start ================== */
+    .home_location {
+        padding: 10px 30px;
+    }
+
+    /* ================== home location section end ================== */
+
+    /* ================== newsletter section start ================== */
+    .newsLetter {
+        max-width: 960px;
+        gap: 60px;
+    }
+
+    .newsLetter_body,
+    .choose_body {
+        font-size: 35px;
+    }
+
+    /* ================== newsletter us section end ================== */
+    /* ================== footer section start ================== */
+    .footer_body {
+        max-width: 960px;
+    }
+
+    /* ================== footer section end ================== */
+
+}
+
+/* ==================================== responsive for mini laptop end ==================================== */
