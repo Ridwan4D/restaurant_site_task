@@ -507,9 +507,6 @@
 }
 
 /* ==================================== responsive for small device end ==================================== */
-
-
-
 /* ==================================== responsive for mini laptop start ==================================== */
 @media(max-width: 1024px) {
 
@@ -518,7 +515,7 @@
         max-width: 60rem;
     }
 
-    /* ================== nav section start ================== */
+    /* ================== nav section end ================== */
 
     /* ================== banner section start ================== */
     .banner_container {
@@ -744,3 +741,92 @@
 }
 
 /* ==================================== responsive for mini laptop end ==================================== */
+/* ==================================== responsive for medium start ==================================== */
+@media(max-width: 768px) {
+
+    /* ================== home contact section start ================== */
+    #home_contact {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* ================== home contact section end ================== */
+    /* ================== home location section start ================== */
+    .home_location>img {
+        max-height: 320px
+    }
+
+    /* ================== home location section end ================== */
+    /* ================== checkout section start ================== */
+    .checkout_menu_list {
+        width: 90%;
+    }
+
+    /* ================== checkout section end ================== */
+    /* ================== online reservation section start ================== */
+    .reservation_form {
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 50px;
+        max-width: 700px;
+        width: 100%;
+    }
+    
+    
+    /* ================== online reservation section end ================== */
+    /* ================== newsletter section start ================== */
+    .newsLetter {
+        width: 720px;
+        margin-top: 60px;
+        gap: 40px;
+        max-height: 320px;
+    }
+
+    .newsLetter_body,
+    .choose_body {
+        font-size: 28px;
+    }
+
+    .newsletter_para {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .newsletter_form_div {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .newsletter_form_div>.common_btn {
+        width: 65%;
+    }
+
+    .newsletter_img_div,
+    .choose_img_div {
+        max-height: 300px;
+        max-width: 450px;
+    }
+
+    .choose_img {
+        max-height: 300px;
+        max-width: 350px;
+    }
+
+    /* ================== newsletter section end ================== */
+
+
+    /* ================== newsletter section end ================== */
+    .footer_body {
+        max-width: 700px;
+    }
+
+    /* ================== newsletter section end ================== */
+}
+
+
+
+
+
+/* ==================================== responsive for medium end ==================================== */
