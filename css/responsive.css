@@ -69,7 +69,9 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    .offer_card_heading_content{
+        width: 115%;
+    }
     .offer_body_left {
         height: 440px;
     }
@@ -80,6 +82,10 @@
 
     .offer_body_left_content h2 {
         font-size: 40px;
+    }
+
+    .offer_body_left_img {
+        width: 71%;
     }
 
     .offer_card_title {
@@ -98,6 +104,9 @@
     .offer_card_image {
         height: 100px;
         width: 100px;
+    }
+    .offer_card_content_price{
+        font-size: 22px;
     }
 
     /* ================== home daily offer section end ================== */
@@ -470,18 +479,18 @@
     }
 
     .hamburger {
+        display: none;
+    }
+
+    .hamburger_mbl{
+        display: block;
         background-color: #fff;
-        width: 25px;
-        height: 25px;
-        /* padding-top: 5px;
-        padding-left: 10px; */
+        height: 24px;
+        border-radius: 100%;
     }
 
     .hamburger>i {
-        font-size: 10px;
-        color: black;
-        margin-top: 0px;
-        margin-left: -4px;
+        display: none;
     }
 
     .nav_end {
@@ -685,7 +694,8 @@
     }
 
     .offer_body_left_img {
-        width: 170%;
+        width: 198%;
+        height: 100%;
     }
 
     .offer_body_right {
@@ -696,6 +706,7 @@
     .offer_body_right .offer_card {
         /* flex-direction: column; */
         /* text-align: center; */
+        justify-content: center;
         gap: 30px;
     }
 
@@ -714,9 +725,10 @@
         margin-bottom: 10px;
     }
 
-    .offer_card_content_desc{
+    .offer_card_content_desc {
         font-size: 12px;
     }
+
     .offer_card_content_price {
         font-size: 16px;
     }

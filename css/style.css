@@ -6,7 +6,9 @@
 :root {
     --primary_color: #FBC04E;
 }
-
+.hamburger_mbl{
+    display: none;
+}
 .header>.header_paragraph {
     color: var(--primary_color);
     font-size: 18px;
