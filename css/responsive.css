@@ -477,7 +477,7 @@
         width: auto;
     }
 
-    .banner_container{
+    .banner_container {
         width: 350px;
     }
 
@@ -525,6 +525,9 @@
         display: none;
     }
 
+    .banner_right_content{
+        display: none;
+    }
     /* ================== banner section end ================== */
     /* ================== choose us section start ================== */
     .choose_us {
@@ -653,31 +656,12 @@
         gap: 24px;
     }
 
-    .offer_body_left {
-        height: 556px;
-        max-width: 100%;
-        padding-left: 0;
-        justify-content: center;
-    }
-
-    .offer_body_left::after {
-        background: linear-gradient(to top, #000000A8, #00000082, #00000000),
-            url('/images/home/offer_left.png');
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-    }
-
     .offer_body_left_content {
         bottom: 16px;
     }
 
-    .offer_body_left_content h3 {
-        font-size: 40px;
-    }
-
-    .offer_body_left_content h2 {
-        font-size: 56spx;
+    .offer_body_left_img {
+        width: 100%;
     }
 
     .offer_body_right {
@@ -697,13 +681,17 @@
         border-radius: 4px;
     }
 
+    .offer_card_heading_content {
+        width: auto;
+    }
+
     .offer_card_content h4 {
         font-size: 16px;
         margin-bottom: 10px;
     }
 
-    .offer_card_content p {
-        font-size: 10px;
+    .offer_card_content_price {
+        font-size: 16px;
     }
 
     .offer_card>p {
