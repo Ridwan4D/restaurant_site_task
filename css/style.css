@@ -7,7 +7,7 @@
     --primary_color: #FBC04E;
 }
 
-.header>p {
+.header>.header_paragraph {
     color: var(--primary_color);
     font-size: 18px;
 }
@@ -1095,7 +1095,7 @@ nav {
     color: #999999;
 }
 
-.inner_home_location{
+.inner_home_location {
     margin-bottom: 50px;
 }
 
