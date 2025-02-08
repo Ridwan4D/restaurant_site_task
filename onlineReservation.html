@@ -31,8 +31,8 @@
                 <li class="nav_link"><a href="about.html"> About</a></li>
                 <li class="nav_link"><a href="menu.html"> Menu</a></li>
                 <li class="nav_link"><a href="#"> Blog</a></li>
-                <li class="nav_link"><a href="onlineReservation.html"> Online Reservation</a></li>
-                <li class="nav_link font_cabin"><a href="#"> Contact</a></li>
+                <li class="nav_link"><a href="#"> Online Reservation</a></li>
+                <li class="nav_link font_cabin"><a href="contact.html"> Contact</a></li>
             </ul>
             <div class="nav_end">
                 <!-- hamburger icon -->
@@ -50,68 +50,54 @@
     </div>
     <!-- navbar end -->
 
-    <!-- contact form start -->
-    <section class="contact_form_page">
-        <div class="contact_form_body">
-            <!-- contact form left -->
-            <div class="contact_form_left">
-                <h2 class="font_playFire contact_form_left_heading">Contact Information</h2>
-                <p class="font_cabin contact_form_left_para">Reference site about Lorem Ipsum, giving information on its
-                    origins, as well as</p>
-                <div class="contact_form_left_card_container">
-                    <!-- contact card -->
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Phone Number</p>
-                            <h3 class="font_cabin contact_card_desc">(62) 1829017</h3>
-                        </div>
-                    </div>
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <i class="fa-regular fa-envelope"></i>
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Email</p>
-                            <h3 class="font_cabin contact_card_desc">Hello@studio.co</h3>
-                        </div>
-                    </div>
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <i class="fa-solid fa-location-crosshairs"></i>
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Map Street</p>
-                            <h3 class="font_cabin contact_card_desc">John Bucarest St. 199</h3>
-                        </div>
-                    </div>
-                </div>
+
+
+
+
+    <!-- Online Reservation section start -->
+    <section id="online_reservation_page">
+        <div class="reserve_heading">
+            <h1 class="font_playFire">Online Reservation</h1>
+            <p class="font_cabin">In publishing and graphic design, Lorem ipsum.</p>
+        </div>
+        <form class="reservation_form">
+            <div class="input_group font_cabin">
+                <input type="text" placeholder="Your Name">
+                <i class="fas fa-user"></i>
             </div>
-            <!-- contact form right -->
-            <div>
-                <form class="contact_page_form">
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="name">Full Name</label>
-                        <input type="text" name="" id="name" class="contact_input_group">
-                    </div>
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="email">Email</label>
-                        <input type="email" name="" id="email" class="contact_input_group">
-                    </div>
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="message">Message</label>
-                        <textarea name="message" id="message" class="" cols="50" rows="15"></textarea>
-                    </div>
-                    <div>
-                        <button class="common_btn" id="banner_button">Send</button>
-                    </div>
-                </form>
+            <div class="input_group font_cabin">
+                <input type="tel" placeholder="Phone Number">
+                <i class="fas fa-phone"></i>
             </div>
+            <div class="input_group font_cabin">
+                <input type="email" placeholder="Email Address">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="input_group font_cabin">
+                <select>
+                    <option value="" disabled selected>Number of Persons</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 Persons</option>
+                    <option value="3">3 Persons</option>
+                    <option value="4">4 Persons</option>
+                    <option value="5+">5+ Persons</option>
+                </select>
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="input_group font_cabin">
+                <input type="date">
+            </div>
+            <div class="input_group font_cabin">
+                <input type="time">
+            </div>
+        </form>
+        <div id="reservation_button_div">
+            <button type="submit" class="common_btn" id="form_submit_btn">Submit Your Reservation</button>
         </div>
     </section>
-    <!-- contact form end -->
+    <!-- Online Reservation section end -->
+
+
 
     <!-- Home contact section start -->
     <section id="home_contact" class="inner_contact">
@@ -155,41 +141,13 @@
     </section>
     <!-- Home contact section end -->
 
-    <!-- inner news letter section start -->
-    <section class="inner_newsletter_section">
-        <div class="inner_newsletter">
-            <!-- left side -->
-            <div class="newsletter_us_right">
-                <img src="images/home/choose_us.png" alt="chef image" class="choose_img">
-                <div class="newsletter_img_div">
-                </div>
-            </div>
-            <!-- right side -->
-            <div class="newsletter_us_left">
-                <div class="header">
-                    <p>Newsletter</p>
-                </div>
-                <div class="newsLetter_body font_playFire">
-                    <p>Subscribe Newsletter & get Latest Offer!</p>
-                </div>
-                <div>
-                    <p class="newsletter_para font_cabin">In publishing and graphic design, Lorem ipsum is a placeholder
-                        text
-                        commonly used
-                        to demonstrate the visual form of a document.
-                    </p>
-                </div>
-                <div class="newsletter_form_div">
-                    <form>
-                        <input type="text" id="newsletter_input" placeholder="Write your Email">
-                    </form>
-                    <button class="common_btn">About Us</button>
-                </div>
-            </div>
-        </div>
 
+
+
+    <section class="home_location inner_home_location">
+        <img src="/images/home/location.png" alt="map_image">
     </section>
-    <!-- inner news letter section end -->
+
 
     <footer class="inner_footer">
         <div class="inner_footer_body">
