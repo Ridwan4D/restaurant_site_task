@@ -120,8 +120,14 @@ nav {
     justify-content: center;
 }
 
-.nav_message>p {
+.nav_message_container>.nav_message {
     margin: 0 auto;
+}
+
+.nav_message_span {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 3px;
 }
 
 /* ================== navbar section end ================== */
@@ -388,7 +394,7 @@ nav {
 .offer_card_heading_content {
     display: flex;
     justify-content: space-between;
-    width: 185%;
+    width: 160%;
 }
 
 .offer_card_content_price {
